@@ -1,0 +1,126 @@
+/* flexbox organization */
+body {
+    margin: 0px;
+    padding: 0px;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    font-family: 'Roboto', sans-serif;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0px 150px;
+}
+
+ul {
+    display: flex;
+    list-style-type: none;
+    gap: 20px;
+}
+
+.hero {
+    display: flex;
+    align-items: center;
+    gap: 40px;
+    padding: 75px 150px;
+}
+
+.text .secondary {
+    margin: 5px 0px 10px 0px;
+}
+
+.hero .img {
+    width: 1000px;
+    height: 220px;
+    background-color: grey;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex: 1 1 auto;
+}
+
+.info {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 25px;
+    padding: 50px 50px 100px 50px;
+}
+
+.item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    width: 200px;
+    height: auto;
+    gap: 5px;
+}
+
+.info .items {
+    display: flex;
+    gap: 50px;
+}
+
+.item .img {
+    width: 180px;
+    height: 180px;
+    border: 5px solid #3882F6;
+    border-radius: 10px;
+}
+
+/* section design */
+.db {
+    background-color: #1F2937;
+}
+
+.hero .main {
+    font-size: 48px;
+    color: #F9FAF8;
+    font-weight: 900;
+}
+
+.hero .secondary, a {
+    font-size: 18px;
+    color: #E5E7EB;
+    text-decoration: none;
+}
+
+.logo {
+    font-size: 24px;
+    color: #F9FAF8;
+}
+
+
+.sign-up-btn, .sign-up {
+    background-color: #3882F6;
+    color: #E5E7EB;
+    border: 2px solid #3882F6;
+    border-radius: 5px;
+    width: 120px;
+    height: 30px;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.info .header {
+    font-size: 36px;
+    color: #1F2937;
+    font-weight: 900;
+}
+
+.quote {
+    background-color: #E5E7EB;
+}
+
+.quote .text {
+    font-size: 36px;
+    color-scheme: light;
+    font-style: italic;
+    color: #1F2937;
+}
