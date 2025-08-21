@@ -74,6 +74,23 @@ ul {
     border-radius: 10px;
 }
 
+.quote {
+    padding: 75px 240px;
+}
+
+.sign-up {
+    padding: 75px 150px;
+    color: #E5E7EB;
+}
+
+.card {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 50px 100px;
+    background-color: #3882F6;
+}
+
 /* section design */
 .db {
     background-color: #1F2937;
@@ -96,8 +113,7 @@ ul {
     color: #F9FAF8;
 }
 
-
-.sign-up-btn, .sign-up {
+.sign-up-btn {
     background-color: #3882F6;
     color: #E5E7EB;
     border: 2px solid #3882F6;
@@ -123,4 +139,26 @@ ul {
     color-scheme: light;
     font-style: italic;
     color: #1F2937;
+}
+
+/* other design */
+.quote .author {
+    font-weight: bold;
+    font-size: 20px;
+    text-align: end;
+}
+
+.card .sign-up-btn {
+    border: 2px solid #E5E7EB;
+}
+
+.text .main {
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.footer {
+    color: #E5E7EB;
+    padding: 30px 0px;
+    text-align: center;
 }
